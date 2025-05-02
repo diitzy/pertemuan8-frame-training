@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 
 <head>
-  <title>Latihan Frame</title>
+  <meta charset="UTF-8">
+  <title>Latihan Frame Modern</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<frameset cols="25%, 75%">
-  <frame src="menu.html" name="menu">
-    <frame src="konten.html" name="konten">
-</frameset>
+<body>
+  <div class="container">
+    <nav class="sidebar">
+      <iframe src="menu.html" class="menu-frame"></iframe>
+    </nav>
+    <main class="content">
+      <iframe name="konten" src="konten.html"></iframe>
+    </main>
+  </div>
+</body>
 
 </html>
