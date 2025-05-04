@@ -4,11 +4,63 @@
 <head>
   <meta charset="UTF-8">
   <title>Kontak</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      padding: 40px;
+      background-color: #fcfcfc;
+      color: #333;
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    .kontak-container {
+      max-width: 600px;
+      padding: 20px;
+      background: #f0f4f8;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .kontak-item {
+      margin-bottom: 15px;
+      font-size: 1.1em;
+    }
+
+    .kontak-item a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+
+    .kontak-item a:hover {
+      text-decoration: underline;
+    }
+
+    .label {
+      font-weight: bold;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Kontak</h1>
-  <p>Silakan hubungi saya di <strong>adityaproduction011@gmail.com</strong>.</p>
+  <h1>Kontak Saya</h1>
+  <div class="kontak-container">
+    <div class="kontak-item">
+      <span class="label">📧 Email:</span>
+      <a href="mailto:adityaproduction011@gmail.com">adityaproduction011@gmail.com</a>
+    </div>
+    <div class="kontak-item">
+      <span class="label">💬 WhatsApp:</span>
+      <a href="https://wa.me/6288295690424" target="_blank">0882-9569-0424</a>
+    </div>
+    <div class="kontak-item">
+      <span class="label">💻 GitHub:</span>
+      <a href="https://github.com/diitzy" target="_blank">github.com/diitzy</a>
+    </div>
+  </div>
 </body>
 
 </html>
